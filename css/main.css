@@ -1,25 +1,8 @@
+* {
+  border: 1px solid black;
+}
+
 /*GENERAL*/
-/*LANDING_PAGE/
-
-/*CONTACT/
-/*PROJECTS*/
-/*IMPRESSUM*/
-ul {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 48px;
-  line-height: 3;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.wrapper {
-  display: flex;
-  justify-content: center;
-}
-
-.pages {
-  list-style: none;
-}
 
 a {
   text-decoration: none;
@@ -29,25 +12,25 @@ a.visited {
   text-decoration: none;
 }
 
-.pages:hover {
-  color: #ff2c53;
-}
-
-.hr {
-  width: 95% auto;
-  height: 2px;
-  color: black;
-}
-
 .wrapper_footer {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family:Source Sans Pro, sans-serif;
   font-size: 15px;
-  display: flex;
-  justify-content: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 5px;
 }
-/*ABOUT*/
+
+footer {
+  display: flex;
+  border-top: 2px solid black;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  justify-content: space-between;
+}
 
 .back {
+  margin-left: 30px;
+  margin-top: 50px;
   position: fixed;
 }
 
@@ -56,5 +39,54 @@ a.visited {
 }
 
 
+/*WORK*/
+/*IMPRESSUM*/
+/*LANDING_PAGE*/
 
-font-family: 'Roboto', sans-serif;
+ul {
+  font-family:Overpass Mono, monospace;
+  font-size: 48px;
+  line-height: 3;
+}
+
+.pages {
+  list-style: none;
+}
+
+.pages:hover {
+  color: #ff2c53;
+}
+
+h1 {
+  font-family:Overpass Mono, monospace;
+  font-size: 48px;
+  margin-top: 252px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-family:Raleway, sans-serif;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+/*ABOUT*/
+
+.p {
+  font-family:Raleway, sans-serif;
+  font-size: 20px;
+}
+
+/*CONTACT*/
+
+.wrapper_contact {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20%;
+  margin-left: 20%;
+}
