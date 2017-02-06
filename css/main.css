@@ -1,11 +1,5 @@
 /*GENERAL*/
-* {
-  margin: 0;
-}
 
-html, body {
-  height: 100%;
-}
 
 a {
   text-decoration: none;
@@ -79,7 +73,7 @@ p {
   height: 45px;
 }
 
-footer a{
+footer a {
   font-family:Raleway, sans-serif;
   font-size: 15px;
   color: #f82c54;
@@ -92,10 +86,13 @@ footer {
   padding-bottom: 18px;
 }
 
+
 /*LANDING_PAGE*/
+
 
 ul {
   font-family:Overpass Mono, monospace;
+  color: #042c54;
   margin-top: 125px;
   font-size: 48px;
   line-height: 3;
@@ -124,13 +121,15 @@ ul {
 .text_about {
   font-family:Raleway, sans-serif;
   font-size: 20px;
+  font-weight:bolder;
   color: #872c53;
   line-height: 50px;
   list-style: none;
-  text-decoration:underline;
 }
 
+
 /*EXPERIENCE*/
+
 
 .wrapper_experience p {
   line-height: 30px;
@@ -162,19 +161,15 @@ ul {
   padding-left: 55px;
   padding-right: 55px;
 }
-/*CONTACT*/
 
-.wrapper_contact {
-  margin-right: 20%;
-  margin-left: 20%;
-  line-height: 30px;
-}
 
 /*WORK*/
 
-.wrapper_work h3{
+
+.wrapper_work h3 {
   font-size: 30px;
 }
+
 .projects {
   width: 200px;
   height: 200px;
@@ -190,12 +185,12 @@ ul {
 
 .overlay {
   position: absolute;
-  top: 0;
+  top: 1;
   bottom: 0;
   left: 0;
   right: 0;
   width: 202px;
-  height: 287px;
+  height: 205px;
   opacity: 0;
   transition: .5s ease;
   background-color: white;
@@ -215,7 +210,6 @@ ul {
 .text {
   font-family:Raleway, sans-serif;
   color: black;
-  text-decoration: underline;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -227,7 +221,33 @@ ul {
 .text:visited {
   text-decoration: none;
 }
+
+
+/*ICONS*/
+
+
+.wrapper_icons p {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper_icons {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+.icons {
+  width: 50%;
+  height: 50%;
+  float: left;
+  margin: auto;
+}
+
+
 /*WEBAPP*/
+
 
 .webapp {
   width: 42%;
@@ -236,6 +256,7 @@ ul {
   display: inline-block;
   padding: 36px;
 }
+
 .wrapper_webapp {
   width: 1000px;
   margin-left: auto;
@@ -243,7 +264,9 @@ ul {
   padding-bottom: 50px;
 }
 
-/*INDESIGN*/
+
+/*FLYER*/
+
 
 .wrapper_indesign {
   width: 1000px;
@@ -262,30 +285,11 @@ ul {
   border: 1px solid #422c53;
 }
 
-/*ICONS*/
-
-.wrapper_icons p{
-  display: flex;
-  justify-content: center;
-}
-
-.wrapper_icons{
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 50px;
-}
-
-.icons {
-  width: 50%;
-  height: 50%;
-  float: left;
-  margin: auto;
-}
 
 /*TYPO*/
 
-.wrapper_typo{
+
+.wrapper_typo {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -299,7 +303,31 @@ ul {
   margin: auto;
 }
 
+
+/*DIGITAL*/
+
+
+.wrapper_digital {
+  width: 1000px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.digitalphoto {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 75%;
+  height: 75%;
+}
+
+.digitalphoto1 {
+  width: 50%;
+  height: 50%;
+}
+
+
 /*ANALOGUE*/
+
 
 .wrapper_analogue {
   width: 1000px;
@@ -322,22 +350,12 @@ ul {
   padding-bottom: 30px;
 }
 
-/*DIGITAL*/
 
-.wrapper_digital {
-  width: 1000px;
-  margin: auto;
-  padding-bottom: 50px;
-}
+/*CONTACT*/
 
-.digitalphoto {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 75%;
-  height: 75%;
-}
 
-.digitalphoto1{
-  width: 50%;
-  height: 50%;
+.wrapper_contact {
+  margin-right: 20%;
+  margin-left: 20%;
+  line-height: 30px;
 }
