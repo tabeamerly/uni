@@ -101,6 +101,7 @@ ul {
 .pages {
   list-style: none;
   text-decoration: none;
+  padding-bottom: 50px;
 }
 
 .pages:hover {
@@ -358,4 +359,5 @@ ul {
   margin-right: 20%;
   margin-left: 20%;
   line-height: 30px;
+  padding-bottom: 70px;
 }
