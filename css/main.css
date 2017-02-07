@@ -276,11 +276,10 @@ ul {
 }
 
 .indesign {
-  width: 21%;
-  height: 21%;
+  width: 42%;
+  height: 42%;
   float: left;
   margin: auto;
-  display: inline-block;
   margin: 17px;
   border: 1px solid #422c53;
 }
