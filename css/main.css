@@ -95,13 +95,13 @@ ul {
   color: #042c54;
   margin-top: 125px;
   font-size: 48px;
-  line-height: 3;
+  line-height: 2;
 }
 
 .pages {
   list-style: none;
   text-decoration: none;
-  padding-bottom: 50px;
+  padding-bottom: 6%;
 }
 
 .pages:hover {
@@ -179,8 +179,8 @@ ul {
 }
 
 .wrapper_work {
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 5%;
+  margin-right: 5%;
   padding-bottom: 70px;
 }
 
@@ -201,7 +201,7 @@ ul {
   position: relative;
   width: 33,33%;
   float: left;
-  margin: 105px;
+  margin: 90px;
 }
 
 .container:hover .overlay {
